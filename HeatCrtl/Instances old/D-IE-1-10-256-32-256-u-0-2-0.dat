@@ -1,0 +1,26 @@
+#####################################
+# Dirichlet Boundary
+# I.E.
+# 1 actuator per time step
+# 10 = Tf
+# 256 time steps
+# 32 steps in space per unit length
+# 256 time steps for controls
+# v unbounded
+# kappa type 0
+# 2 initial state type
+# 0 desired final state type
+#####################################
+
+include SpaceMesh32.dat;
+include TimeHorizon10.dat;
+include TimeMesh256.dat;
+include ControlMesh256.dat;
+include InitialValues2.dat;
+include ImplicitEuler.dat;
+include ActuatorLocations.dat;
+include ActuatorQuantity1.dat;
+include Vunbounded.dat;
+include Kappa0.dat;
+include DesiredFinalState0.dat;
+let Instance:="D-IE-1-10-256-32-256-u-0-2-0"; 
