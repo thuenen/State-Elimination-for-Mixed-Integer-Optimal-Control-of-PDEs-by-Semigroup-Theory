@@ -1,0 +1,11 @@
+# (x,y) coordinates of locations 2N=M
+
+let locX[1] := 0.25*N; let locY[1] := 0.5*N;
+let locX[2] := 0.25*N; let locY[2] := N;
+let locX[3] := 0.25*N; let locY[3] := 1.5*N;
+let locX[4] := 0.5*N; let locY[4] := 0.5*N;
+let locX[5] := 0.5*N; let locY[5] := N;
+let locX[6] := 0.5*N; let locY[6] := 1.5*N;
+let locX[7] := 0.75*N; let locY[7] := 0.5*N;
+let locX[8] := 0.75*N; let locY[8] := N;
+let locX[9] := 0.75*N; let locY[9] := 1.5*N;

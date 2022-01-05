@@ -1,0 +1,3 @@
+# Initial Values
+
+fix{(i,j) in IxJ} 	u[0,i,j]:=100*sin(pi*i*hx)*sin(pi*j*hy);

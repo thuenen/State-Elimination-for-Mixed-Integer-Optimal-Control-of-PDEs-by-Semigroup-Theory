@@ -1,0 +1,3 @@
+let {(i,j) in IxJ: j<M/3 || j>2*M/3} kappa[i,j]:=0.01;
+let {(i,j) in IxJ: j>M/3 && j<2*M/3} kappa[i,j]:=0.1;
+

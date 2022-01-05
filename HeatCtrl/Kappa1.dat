@@ -1,0 +1,9 @@
+let {(i,j) in IxJ: i<N/3 && 		   j<M/3		} kappa[i,j]:=0.01; #a
+let {(i,j) in IxJ: i>N/3 &&	i<2*N/3 && j<M/3		} kappa[i,j]:=0.01; #b
+let {(i,j) in IxJ:	 	i>2*N/3 && j<M/3		} kappa[i,j]:=0.01; #c
+let {(i,j) in IxJ: i<N/3		&& j>M/3 && j<2*M/3	} kappa[i,j]:=0.01; #d
+let {(i,j) in IxJ: i>N/3 &&	i<2*N/3 && j>M/3 && j<2*M/3	} kappa[i,j]:=0.1 ; #e
+let {(i,j) in IxJ: 		i>2*N/3 && j>M/3 && j<2*M/3	} kappa[i,j]:=0.01; #f
+let {(i,j) in IxJ:  i<N/3			 && j>2*M/3	} kappa[i,j]:=0.01; #g
+let {(i,j) in IxJ:  i>N/3 &&	i<2*N/3		 && j>2*M/3	} kappa[i,j]:=0.01; #h
+let {(i,j) in IxJ:  		i>2*N/3		 && j>2*M/3	} kappa[i,j]:=0.01; #i

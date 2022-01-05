@@ -1,0 +1,3 @@
+# Desired Final State
+
+let {(k,i,j) in TxIxJ} udesired[k,i,j]:=0;
