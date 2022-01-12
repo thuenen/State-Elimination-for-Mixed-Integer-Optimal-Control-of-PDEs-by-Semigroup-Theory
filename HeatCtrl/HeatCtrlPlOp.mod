@@ -24,7 +24,7 @@
 # AMPL coding 
 # Argonne, November 2015
 # Anna Thuenen, University of Magdeburg, April 2017
-# anna.thuenen@me.com
+# thuenen@icloud.com
 ######################################################################
 # Parameters
 
